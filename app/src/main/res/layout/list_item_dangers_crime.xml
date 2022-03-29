@@ -6,19 +6,22 @@
     android:layout_height="wrap_content"
     tools:ignore="ExtraText"
     android:padding="8dp">
-    android:layout_height= "wrap_content"
-    android:padding="3dp>
+    android:layout_height="wrap_content"
+    android:padding="8dp">
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/crime_title"
-        android:text="Crime Title" />
-    <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Crime Title"/>
+    <TextView
         android:id="@+id/crime_date"
-        android:text="Crime Date" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crime Date"/>
 
-
-
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Polyce" />
 </LinearLayout>
