@@ -92,6 +92,4 @@ class CrimeListFragment: Fragment() {
         override fun getItemCount() = crimes.size
 
     }
-
-
 }
