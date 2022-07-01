@@ -10,44 +10,41 @@
         style="?android:listSeparatorTextViewStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="77dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:text="@string/crime_title_label"
-        app:layout_constraintBottom_toTopOf="@+id/crime_date"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/crime_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="86dp"
-        android:layout_marginTop="16dp"
         android:hint="@string/crime_title_hint"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/crime_solved"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="268dp"
         android:text="@string/crime_solved_label"
-        app:layout_constraintEnd_toEndOf="@+id/crime_date"
-        app:layout_constraintHorizontal_bias="0.531"
-        app:layout_constraintStart_toStartOf="@+id/crime_date"
-        app:layout_constraintTop_toBottomOf="@+id/crime_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/crime_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="327dp"
-        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/crime_solved"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
         tools:text="Wed Now 14 11:56 EST 2018" />
 

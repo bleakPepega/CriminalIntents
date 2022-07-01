@@ -11,3 +11,5 @@ import com.example.criminalintent.Crime
 abstract class CrimeDateBase : RoomDatabase () {
     abstract fun crimeDao(): CrimeDao
 }
+
+
